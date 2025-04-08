@@ -24,6 +24,7 @@
       </div>
       <ul class="nav-list">
         <li><a href="#" class="nav-link">Accueil</a></li>
+        <li><a href="#" class="nav-link">Articles</a></li>
         <li><a href="#" class="nav-link">Postes</a></li>
         <li><a href="#" class="nav-link">Ajouter un poste</a></li>
         <li><a href="#" class="nav-link">Se connecter</a></li>
@@ -36,7 +37,7 @@
   <section  class="main">
     <div class="container">
       <div class="title">
-        <h1>Postes récents</h1>
+        <h1>Articles</h1>
       </div>
 
       <!-- Affichage des articles -->
