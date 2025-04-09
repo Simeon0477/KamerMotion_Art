@@ -25,85 +25,54 @@ body {
 /* Body */
 
 .main {
-    width: 100%;
+    width: 96.7%;
     font-size: 15px;
     font-family: poppins;
-    min-height: 100vh;
+    padding : 75px 20px;
+    display: flex;
+    align-items : start;
+    justify-content : center;
+    min-height: 80vh;
 }
 
-.banner{
-  width: 100%;
-  font-size: 15px;
-  height : 80vh;
-  background: url(/img/cover.webp) no-repeat center;
-  background-size: cover;
-  display : flex;
-  justify-content : center;
-  align-items : center;
-}
-
-.recents{
-  padding: 100px 15px 120px 15px;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.books{
-  width: 80%;
-  margin: 10px 0;
-  box-shadow: 0px 0px 8px 0 rgb(184, 183, 183);
-  border-radius : 20px;
-  padding: 20px 15px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  text-align : justify;
-}
-
-.books img{
-  width : 170px;
-  border-radius : 15px;
-  margin: 0 30px;
-}
-
-.achat{
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-}
-
-.add2{
-  background-color: var(--dark-blue);
-  border: none;
-  border-radius: 5px;
-  padding: 8px;
-  transition: 0.2s;
-  color: white;
-  font-size: 16px;
-  font-weight: 600;
-}
-
-.add2:hover{
-  cursor: pointer;
-  transform: scale(1.05);
-  transition: 0.2s;
+.container {
+    padding: 0 40px;
 }
 
 .title {
-  width : 80%;
-  font-size : 32px;
-  font-weight : 600px;
-  margin : 0;
-  margin-bottom : 30px;
-  padding : 0;
-  color : var(--light-yellow);
+    font-size : 32px;
+    font-weight : 600px;
+    margin : 15px 0px;
+    padding : 0;
+    color : var(--light-yellow);
 }
 
-.title h1{
-  margin : 0;
+.post-head{
+    display: flex;
+    align-items: start;
+}
+
+.post-image{
+    width : 180px;
+    border-radius : 10px;
+    margin : 0px;
+}
+
+.post-title {
+    margin : 0 50px;
+    padding : 15px;
+    font-size : 28px;
+    font-weight : 500;
+}
+
+.card {
+    border-top : 2px solid var(--dark-gray);
+    border-bottom : 2px solid var(--dark-gray);
+    padding : 25px 0;
+}
+
+.post-content {
+    text-align : justify;
 }
 
 /* Responsive : Mobile Navigation */

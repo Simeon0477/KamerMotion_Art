@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>KamerMotion Art</title>
-  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/post.css">
 </head>
 
 <header id="navbar">
@@ -34,64 +34,24 @@
 </header>
 
 <body>
+  <section  class="main">
+    <div class="container">
+      <div class="title">
+        <h1>Articles</h1>
+      </div>
 
-  <section class="main">
-      <section class="banner">
-
-      </section>
-
-      <section class="recents">
-        <div class="title">
-          <h1>Postes récents</h1>
+      <!-- Affichage des articles -->
+      <div class="card">
+        <div class="post-head">
+          <img src="/img/image.png" class="post-image">
+          <h2 class="post-title">Best character for ever</h2>
         </div>
-
-        <div class="books">
-          <div>
-            <img src="/img/image.png" alt="image" />
-          </div>
-          <div>
-            <h3 class="titre"><Link href="/post.php">The best character for ever</Link></h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam velit architecto expedita obcaecati fuga repellendus voluptas mollitia laborum maxime facere a sapiente atque, accusantium, beatae quis blanditiis eligendi qui consectetur!
-            </p>
-            <div class="achat">
-              <button class="add2"> Voir plus </button>
-            </div>
-          </div>
+        <p class="post-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae molestias numquam aliquam provident doloremque suscipit optio dolor asperiores ea, odio amet voluptates ad, nam velit obcaecati aspernatur ducimus sit nulla. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi, maiores, nisi praesentium id reprehenderit eius accusamus ipsa facilis possimus dolor perspiciatis iste molestiae et aliquam. Iste doloribus soluta possimus voluptatibus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, harum deserunt? Veritatis, debitis. Numquam, molestiae molestias dolorum saepe alias dignissimos maxime quam vel. Laborum asperiores quae ab quia amet culpa!</p>
+        <div class="card-footer">
+          <span class="text-muted">Publié le 25/03/2025</span>
         </div>
-        <div class="books">
-          <div>
-            <img src="/img/image.png" alt="image" />
-          </div>
-          <div>
-            <h3 class="titre"><Link href="/post.php">The best character for ever</Link></h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam velit architecto expedita obcaecati fuga repellendus voluptas mollitia laborum maxime facere a sapiente atque, accusantium, beatae quis blanditiis eligendi qui consectetur!
-            </p>
-            <div class="achat">
-              <button class="add2"> Voir plus </button>
-            </div>
-          </div>
-        </div>
-        <div class="books">
-          <div>
-            <img src="/img/image.png" alt="image" />
-          </div>
-          <div>
-            <h3 class="titre"><Link href="/post.php">The best character for ever</Link></h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam velit architecto expedita obcaecati fuga repellendus voluptas mollitia laborum maxime facere a sapiente atque, accusantium, beatae quis blanditiis eligendi qui consectetur!
-            </p>
-            <div class="achat">
-              <button class="add2"> Voir plus </button>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section>
-  
-      </section>
+      </div>
+    </div>
   </section>
 
 <script src="/js/main.js"></script>
