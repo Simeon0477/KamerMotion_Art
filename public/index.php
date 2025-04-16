@@ -37,7 +37,9 @@
 
   <section class="main">
       <section class="banner">
-
+        <p>
+          <span class="slogan">Kamermotion Art</span> <br> Le murmure de la culture camerounaise dans la danse des formes et des couleurs
+        </p>
       </section>
 
       <section class="recents">
@@ -47,12 +49,13 @@
 
         <div class="books">
           <div>
-            <img src="/img/image.png" alt="image" />
+            <img src="/img/image.jpg" alt="image" />
           </div>
           <div>
-            <h3 class="titre"><Link href="/post.php">The best character for ever</Link></h3>
+            <h3 class="titre"><Link href="/post.php">Un regard novateur sur la culture camerounaise</Link></h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam velit architecto expedita obcaecati fuga repellendus voluptas mollitia laborum maxime facere a sapiente atque, accusantium, beatae quis blanditiis eligendi qui consectetur!
+La culture camerounaise a évolué de différentes manières, grâce aux interactions entre ses différents peuples et à ses rapports avec l'étranger.
+Avec la mondialisation et le développement politique, économique, culturel et intellectuel de notre pays.
             </p>
             <div class="achat">
               <button class="add2"> Voir plus </button>
@@ -61,12 +64,13 @@
         </div>
         <div class="books">
           <div>
-            <img src="/img/image.png" alt="image" />
+            <img src="/img/image.jpg" alt="image" />
           </div>
           <div>
-            <h3 class="titre"><Link href="/post.php">The best character for ever</Link></h3>
+            <h3 class="titre"><Link href="/post.php">Un regard novateur sur la culture camerounaise</Link></h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam velit architecto expedita obcaecati fuga repellendus voluptas mollitia laborum maxime facere a sapiente atque, accusantium, beatae quis blanditiis eligendi qui consectetur!
+La culture camerounaise a évolué de différentes manières, grâce aux interactions entre ses différents peuples et à ses rapports avec l'étranger.
+Avec la mondialisation et le développement politique, économique, culturel et intellectuel de notre pays.
             </p>
             <div class="achat">
               <button class="add2"> Voir plus </button>
@@ -75,12 +79,13 @@
         </div>
         <div class="books">
           <div>
-            <img src="/img/image.png" alt="image" />
+            <img src="/img/image.jpg" alt="image" />
           </div>
           <div>
-            <h3 class="titre"><Link href="/post.php">The best character for ever</Link></h3>
+            <h3 class="titre"><Link href="/post.php">Un regard novateur sur la culture camerounaise</Link></h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam velit architecto expedita obcaecati fuga repellendus voluptas mollitia laborum maxime facere a sapiente atque, accusantium, beatae quis blanditiis eligendi qui consectetur!
+La culture camerounaise a évolué de différentes manières, grâce aux interactions entre ses différents peuples et à ses rapports avec l'étranger.
+Avec la mondialisation et le développement politique, économique, culturel et intellectuel de notre pays.
             </p>
             <div class="achat">
               <button class="add2"> Voir plus </button>

@@ -43,10 +43,12 @@
       <!-- Affichage des articles -->
       <div class="card">
         <div class="post-head">
-          <img src="/img/image.png" class="post-image">
-          <h2 class="post-title">Best character for ever</h2>
+          <img src="/img/image.jpg" class="post-image">
+          <h2 class="post-title">Un regard novateur sur la culture camerounaise</h2>
         </div>
-        <p class="post-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae molestias numquam aliquam provident doloremque suscipit optio dolor asperiores ea, odio amet voluptates ad, nam velit obcaecati aspernatur ducimus sit nulla. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi, maiores, nisi praesentium id reprehenderit eius accusamus ipsa facilis possimus dolor perspiciatis iste molestiae et aliquam. Iste doloribus soluta possimus voluptatibus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, harum deserunt? Veritatis, debitis. Numquam, molestiae molestias dolorum saepe alias dignissimos maxime quam vel. Laborum asperiores quae ab quia amet culpa!</p>
+        <p class="post-content">
+La culture camerounaise a évolué de différentes manières, grâce aux interactions entre ses différents peuples et à ses rapports avec l'étranger.
+Avec la mondialisation et le développement politique, économique, culturel et intellectuel de notre pays, le peuple camerounais ne doit plus être décrit selon les clichés misérabilistes que l'Occident lui attribue, mais selon les réalités du Cameroun d'aujourd'hui : un Cameroun fort et indépendant, une Afrique en miniature dont la diversité fait la force, patrie de l'homme le plus fort du monde et un continent qui accueille et abrite des peuples et cultures de toutes origines.</p>
         <div class="card-footer">
           <span class="text-muted">Publié le 25/03/2025</span>
         </div>
