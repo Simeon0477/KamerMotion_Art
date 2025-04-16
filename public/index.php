@@ -43,55 +43,55 @@
       </section>
 
       <section class="recents">
-        <div class="title">
-          <h1>Postes récents</h1>
-        </div>
-
-        <div class="books">
-          <div>
-            <img src="/img/image.jpg" alt="image" />
+          <div class="title">
+            <h2>Auteurs populaires</h2>
+            <button class="more">Voir Plus</button>
           </div>
-          <div>
-            <h3 class="titre"><Link href="/post.php">Un regard novateur sur la culture camerounaise</Link></h3>
-            <p>
-La culture camerounaise a évolué de différentes manières, grâce aux interactions entre ses différents peuples et à ses rapports avec l'étranger.
-Avec la mondialisation et le développement politique, économique, culturel et intellectuel de notre pays.
-            </p>
-            <div class="achat">
-              <button class="add2"> Voir plus </button>
+          <div class="authors">
+            <div class="auteurs">
+              <div>
+                <img src="/img/image.jpg" width="200" height="210" alt="image" />
+              </div>
+              <div>
+                <p class="nom_auteur">Nom de l'auteur</p>
+                <p>
+                  qui consectetur! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id fugit facere vero ipsam recusandae quis quidem quo sint labore, cumque enim dolorum corporis iste officia rem doloribus veritatis non dolores?
+                </p>
+              </div>
             </div>
-          </div>
-        </div>
-        <div class="books">
-          <div>
-            <img src="/img/image.jpg" alt="image" />
-          </div>
-          <div>
-            <h3 class="titre"><Link href="/post.php">Un regard novateur sur la culture camerounaise</Link></h3>
-            <p>
-La culture camerounaise a évolué de différentes manières, grâce aux interactions entre ses différents peuples et à ses rapports avec l'étranger.
-Avec la mondialisation et le développement politique, économique, culturel et intellectuel de notre pays.
-            </p>
-            <div class="achat">
-              <button class="add2"> Voir plus </button>
+            <div class="auteurs">
+              <div>
+                <img src="/img/image.jpg" width="200" height="210" alt="image" />
+              </div>
+              <div>
+                <p class="nom_auteur">Nom de l'auteur</p>
+                <p>
+                  qui consectetur! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id fugit facere vero ipsam recusandae quis quidem quo sint labore, cumque enim dolorum corporis iste officia rem doloribus veritatis non dolores?
+                </p>
+              </div>
             </div>
-          </div>
-        </div>
-        <div class="books">
-          <div>
-            <img src="/img/image.jpg" alt="image" />
-          </div>
-          <div>
-            <h3 class="titre"><Link href="/post.php">Un regard novateur sur la culture camerounaise</Link></h3>
-            <p>
-La culture camerounaise a évolué de différentes manières, grâce aux interactions entre ses différents peuples et à ses rapports avec l'étranger.
-Avec la mondialisation et le développement politique, économique, culturel et intellectuel de notre pays.
-            </p>
-            <div class="achat">
-              <button class="add2"> Voir plus </button>
+            <div class="auteurs">
+              <div>
+                <img src="/img/image.jpg" width="200" height="210" alt="image" />
+              </div>
+              <div>
+                <p class="nom_auteur">Nom de l'auteur</p>
+                <p>
+                  qui consectetur! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id fugit facere vero ipsam recusandae quis quidem quo sint labore, cumque enim dolorum corporis iste officia rem doloribus veritatis non dolores?
+                </p>
+              </div>
             </div>
-          </div>
-        </div>
+            <div class="auteurs">
+              <div>
+                <img src="/img/image.jpg" width="200" height="210" alt="image" />
+              </div>
+              <div>
+                <p class="nom_auteur">Nom de l'auteur</p>
+                <p>
+                  qui consectetur! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id fugit facere vero ipsam recusandae quis quidem quo sint labore, cumque enim dolorum corporis iste officia rem doloribus veritatis non dolores?
+                </p>
+              </div>
+            </div>
       </section>
 
       <section>

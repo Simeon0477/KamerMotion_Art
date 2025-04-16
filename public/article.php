@@ -35,57 +35,25 @@
 
 <body>
   <section  class="main">
-  <section class="recents">
-        <div class="title">
-          <h1>Postes récents</h1>
-        </div>
+    <div class="container">
+      <div class="title">
+        <h1>Article</h1>
+      </div>
 
-        <div class="books">
-          <div>
-            <img src="/img/image.jpg" alt="image" />
-          </div>
-          <div>
-            <h3 class="titre"><Link href="/post.php">Un regard novateur sur la culture camerounaise</Link></h3>
-            <p>
-La culture camerounaise a évolué de différentes manières, grâce aux interactions entre ses différents peuples et à ses rapports avec l'étranger.
-Avec la mondialisation et le développement politique, économique, culturel et intellectuel de notre pays.
-            </p>
-            <div class="achat">
-              <button class="add2"> Voir plus </button>
-            </div>
-          </div>
+      <!-- Affichage des articles -->
+      <div class="card">
+        <div class="post-head">
+          <img src="/img/image.jpg" class="post-image">
+          <h2 class="post-title">Un regard novateur sur la culture camerounaise</h2>
         </div>
-        <div class="books">
-          <div>
-            <img src="/img/image.jpg" alt="image" />
-          </div>
-          <div>
-            <h3 class="titre"><Link href="/post.php">Un regard novateur sur la culture camerounaise</Link></h3>
-            <p>
+        <p class="post-content">
 La culture camerounaise a évolué de différentes manières, grâce aux interactions entre ses différents peuples et à ses rapports avec l'étranger.
-Avec la mondialisation et le développement politique, économique, culturel et intellectuel de notre pays.
-            </p>
-            <div class="achat">
-              <button class="add2"> Voir plus </button>
-            </div>
-          </div>
+Avec la mondialisation et le développement politique, économique, culturel et intellectuel de notre pays, le peuple camerounais ne doit plus être décrit selon les clichés misérabilistes que l'Occident lui attribue, mais selon les réalités du Cameroun d'aujourd'hui : un Cameroun fort et indépendant, une Afrique en miniature dont la diversité fait la force, patrie de l'homme le plus fort du monde et un continent qui accueille et abrite des peuples et cultures de toutes origines.</p>
+        <div class="card-footer">
+          <span class="text-muted">Publié le 25/03/2025</span>
         </div>
-        <div class="books">
-          <div>
-            <img src="/img/image.jpg" alt="image" />
-          </div>
-          <div>
-            <h3 class="titre"><Link href="/post.php">Un regard novateur sur la culture camerounaise</Link></h3>
-            <p>
-La culture camerounaise a évolué de différentes manières, grâce aux interactions entre ses différents peuples et à ses rapports avec l'étranger.
-Avec la mondialisation et le développement politique, économique, culturel et intellectuel de notre pays.
-            </p>
-            <div class="achat">
-              <button class="add2"> Voir plus </button>
-            </div>
-          </div>
-        </div>
-      </section>
+      </div>
+    </div>
   </section>
 
 <script src="/js/main.js"></script>
