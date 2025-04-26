@@ -46,8 +46,8 @@
           <div class="title">
             <h2>Articles récents</h2>
           </div>
-          <div class="authors">
-            <div class="auteurs">
+          <div class="articles">
+            <div class="article">
               <div>
                 <img src="/img/image.jpg" alt="image" />
               </div>
@@ -60,7 +60,7 @@
                 </div>
               </div>
             </div>
-            <div class="auteurs">
+            <div class="article">
               <div>
                 <img src="/img/image.jpg" alt="image" />
               </div>
@@ -73,7 +73,7 @@
                 </div>
               </div>
             </div>
-            <div class="auteurs">
+            <div class="article">
               <div>
                 <img src="/img/image.jpg" alt="image" />
               </div>
@@ -86,7 +86,7 @@
                 </div>
               </div>
             </div>
-            <div class="auteurs">
+            <div class="article">
               <div>
                 <img src="/img/image.jpg" alt="image" />
               </div>
@@ -99,7 +99,7 @@
                 </div>
               </div>
             </div>
-            <div class="auteurs">
+            <div class="article">
               <div>
                 <img src="/img/image.jpg" alt="image" />
               </div>
@@ -112,7 +112,7 @@
                 </div>
               </div>
             </div>
-            <div class="auteurs">
+            <div class="article">
               <div>
                 <img src="/img/image.jpg" alt="image" />
               </div>

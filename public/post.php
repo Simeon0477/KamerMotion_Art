@@ -35,12 +35,12 @@
 
 <body>
   <section  class="main">
-  <section class="recents">
+  <section class="articles">
         <div class="title">
           <h1>Tous nos articles</h1>
         </div>
 
-        <div class="books">
+        <div class="article">
           <div>
             <img src="/img/image.jpg" alt="image" />
           </div>
@@ -55,7 +55,7 @@ Avec la mondialisation et le développement politique, économique, culturel et 
             </div>
           </div>
         </div>
-        <div class="books">
+        <div class="article">
           <div>
             <img src="/img/image.jpg" alt="image" />
           </div>
@@ -70,7 +70,7 @@ Avec la mondialisation et le développement politique, économique, culturel et 
             </div>
           </div>
         </div>
-        <div class="books">
+        <div class="article">
           <div>
             <img src="/img/image.jpg" alt="image" />
           </div>
@@ -85,7 +85,7 @@ Avec la mondialisation et le développement politique, économique, culturel et 
             </div>
           </div>
         </div>
-        <div class="books">
+        <div class="article">
           <div>
             <img src="/img/image.jpg" alt="image" />
           </div>
@@ -100,7 +100,7 @@ Avec la mondialisation et le développement politique, économique, culturel et 
             </div>
           </div>
         </div>
-        <div class="books">
+        <div class="article">
           <div>
             <img src="/img/image.jpg" alt="image" />
           </div>
@@ -115,7 +115,7 @@ Avec la mondialisation et le développement politique, économique, culturel et 
             </div>
           </div>
         </div>
-        <div class="books">
+        <div class="article">
           <div>
             <img src="/img/image.jpg" alt="image" />
           </div>

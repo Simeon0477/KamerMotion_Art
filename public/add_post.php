@@ -44,7 +44,7 @@
                 <label>Titre du post</label><br>
                 <input type="text" name="title" placeholder="Titre" required><br>
                 <label>Contenue du poste</label><br>
-                <textarea name="content" placeholder="Contenu" required></textarea><br>
+                <textarea id="autoResize" name="content" placeholder="Contenu" required></textarea><br>
                 <label>Ajouter une image</label><br>
                 <input type="file" name="image"><br>
                 <input type="submit" name="submit" value="Ajouter le post"><br>
