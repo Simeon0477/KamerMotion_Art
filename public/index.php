@@ -25,9 +25,9 @@
       <ul class="nav-list">
         <li><a href="/index.php" class="nav-link">Accueil</a></li>
         <li><a href="/post.php" class="nav-link">Articles</a></li>
-        <li><a href="#" class="nav-link">Postes</a></li>
-        <li><a href="#" class="nav-link">Ajouter un poste</a></li>
-        <li><a href="#" class="nav-link">Se connecter</a></li>
+        <li><a href="#" class="nav-link">Archives</a></li>
+        <li><a href="/add_post.php" class="nav-link">Ajouter un poste</a></li>
+        <li><a href="#" class="nav-link">Log in</a></li>
       </ul>
     </nav>
   </div>
@@ -44,52 +44,85 @@
 
       <section class="recents">
           <div class="title">
-            <h2>Auteurs populaires</h2>
-            <button class="more">Voir Plus</button>
+            <h2>Articles récents</h2>
           </div>
           <div class="authors">
             <div class="auteurs">
               <div>
-                <img src="/img/image.jpg" width="200" height="210" alt="image" />
+                <img src="/img/image.jpg" alt="image" />
               </div>
-              <div>
-                <p class="nom_auteur">Nom de l'auteur</p>
-                <p>
-                  qui consectetur! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id fugit facere vero ipsam recusandae quis quidem quo sint labore, cumque enim dolorum corporis iste officia rem doloribus veritatis non dolores?
-                </p>
-              </div>
-            </div>
-            <div class="auteurs">
-              <div>
-                <img src="/img/image.jpg" width="200" height="210" alt="image" />
-              </div>
-              <div>
-                <p class="nom_auteur">Nom de l'auteur</p>
-                <p>
-                  qui consectetur! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id fugit facere vero ipsam recusandae quis quidem quo sint labore, cumque enim dolorum corporis iste officia rem doloribus veritatis non dolores?
-                </p>
+              <div class="titre">
+                <div>
+                <p class="titre_article">Un regard novateur sur la culture camerounaise</p>
+                </div>
+                <div class="achat">
+                  <a href="/article.php" class="add2"> Voir plus </a>
+                </div>
               </div>
             </div>
             <div class="auteurs">
               <div>
-                <img src="/img/image.jpg" width="200" height="210" alt="image" />
+                <img src="/img/image.jpg" alt="image" />
               </div>
-              <div>
-                <p class="nom_auteur">Nom de l'auteur</p>
-                <p>
-                  qui consectetur! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id fugit facere vero ipsam recusandae quis quidem quo sint labore, cumque enim dolorum corporis iste officia rem doloribus veritatis non dolores?
-                </p>
+              <div class="titre">
+                <div>
+                <p class="titre_article">Un regard novateur sur la culture camerounaise</p>
+                </div>
+                <div class="achat">
+                  <a href="/article.php" class="add2"> Voir plus </a>
+                </div>
               </div>
             </div>
             <div class="auteurs">
               <div>
-                <img src="/img/image.jpg" width="200" height="210" alt="image" />
+                <img src="/img/image.jpg" alt="image" />
               </div>
+              <div class="titre">
+                <div>
+                <p class="titre_article">Un regard novateur sur la culture camerounaise</p>
+                </div>
+                <div class="achat">
+                  <a href="/article.php" class="add2"> Voir plus </a>
+                </div>
+              </div>
+            </div>
+            <div class="auteurs">
               <div>
-                <p class="nom_auteur">Nom de l'auteur</p>
-                <p>
-                  qui consectetur! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id fugit facere vero ipsam recusandae quis quidem quo sint labore, cumque enim dolorum corporis iste officia rem doloribus veritatis non dolores?
-                </p>
+                <img src="/img/image.jpg" alt="image" />
+              </div>
+              <div class="titre">
+                <div>
+                <p class="titre_article">Un regard novateur sur la culture camerounaise</p>
+                </div>
+                <div class="achat">
+                  <a href="/article.php" class="add2"> Voir plus </a>
+                </div>
+              </div>
+            </div>
+            <div class="auteurs">
+              <div>
+                <img src="/img/image.jpg" alt="image" />
+              </div>
+              <div class="titre">
+                <div>
+                <p class="titre_article">Un regard novateur sur la culture camerounaise</p>
+                </div>
+                <div class="achat">
+                  <a href="/article.php" class="add2"> Voir plus </a>
+                </div>
+              </div>
+            </div>
+            <div class="auteurs">
+              <div>
+                <img src="/img/image.jpg" alt="image" />
+              </div>
+              <div class="titre">
+                <div>
+                <p class="titre_article">Un regard novateur sur la culture camerounaise</p>
+                </div>
+                <div class="achat">
+                  <a href="/article.php" class="add2"> Voir plus </a>
+                </div>
               </div>
             </div>
       </section>

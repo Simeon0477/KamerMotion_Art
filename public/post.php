@@ -25,9 +25,9 @@
       <ul class="nav-list">
         <li><a href="/index.php" class="nav-link">Accueil</a></li>
         <li><a href="/post.php" class="nav-link">Articles</a></li>
-        <li><a href="#" class="nav-link">Postes</a></li>
-        <li><a href="#" class="nav-link">Ajouter un poste</a></li>
-        <li><a href="#" class="nav-link">Se connecter</a></li>
+        <li><a href="#" class="nav-link">Archives</a></li>
+        <li><a href="/add_post.php" class="nav-link">Ajouter un poste</a></li>
+        <li><a href="#" class="nav-link">Log in</a></li>
       </ul>
     </nav>
   </div>
@@ -37,7 +37,7 @@
   <section  class="main">
   <section class="recents">
         <div class="title">
-          <h1>Postes récents</h1>
+          <h1>Tous nos articles</h1>
         </div>
 
         <div class="books">
@@ -45,13 +45,58 @@
             <img src="/img/image.jpg" alt="image" />
           </div>
           <div>
-            <h3 class="titre"><Link href="/post.php">Un regard novateur sur la culture camerounaise</Link></h3>
+            <h3 class="titre"><a href="/post.php">Un regard novateur sur la culture camerounaise</a></h3>
             <p>
 La culture camerounaise a évolué de différentes manières, grâce aux interactions entre ses différents peuples et à ses rapports avec l'étranger.
 Avec la mondialisation et le développement politique, économique, culturel et intellectuel de notre pays.
             </p>
             <div class="achat">
-              <button class="add2"> Voir plus </button>
+              <a href="/article.php" class="add2"> Voir plus </a>
+            </div>
+          </div>
+        </div>
+        <div class="books">
+          <div>
+            <img src="/img/image.jpg" alt="image" />
+          </div>
+          <div>
+            <h3 class="titre"><a href="/post.php">Un regard novateur sur la culture camerounaise</a></h3>
+            <p>
+La culture camerounaise a évolué de différentes manières, grâce aux interactions entre ses différents peuples et à ses rapports avec l'étranger.
+Avec la mondialisation et le développement politique, économique, culturel et intellectuel de notre pays.
+            </p>
+            <div class="achat">
+              <a href="/article.php" class="add2"> Voir plus </a>
+            </div>
+          </div>
+        </div>
+        <div class="books">
+          <div>
+            <img src="/img/image.jpg" alt="image" />
+          </div>
+          <div>
+            <h3 class="titre"><a href="/post.php">Un regard novateur sur la culture camerounaise</a></h3>
+            <p>
+La culture camerounaise a évolué de différentes manières, grâce aux interactions entre ses différents peuples et à ses rapports avec l'étranger.
+Avec la mondialisation et le développement politique, économique, culturel et intellectuel de notre pays.
+            </p>
+            <div class="achat">
+              <a href="/article.php" class="add2"> Voir plus </a>
+            </div>
+          </div>
+        </div>
+        <div class="books">
+          <div>
+            <img src="/img/image.jpg" alt="image" />
+          </div>
+          <div>
+            <h3 class="titre"><a href="/post.php">Un regard novateur sur la culture camerounaise</a></h3>
+            <p>
+La culture camerounaise a évolué de différentes manières, grâce aux interactions entre ses différents peuples et à ses rapports avec l'étranger.
+Avec la mondialisation et le développement politique, économique, culturel et intellectuel de notre pays.
+            </p>
+            <div class="achat">
+              <a href="/article.php" class="add2"> Voir plus </a>
             </div>
           </div>
         </div>
@@ -66,7 +111,7 @@ La culture camerounaise a évolué de différentes manières, grâce aux interac
 Avec la mondialisation et le développement politique, économique, culturel et intellectuel de notre pays.
             </p>
             <div class="achat">
-              <button class="add2"> Voir plus </button>
+              <a href="/article.php" class="add2"> Voir plus </a>
             </div>
           </div>
         </div>
@@ -81,7 +126,7 @@ La culture camerounaise a évolué de différentes manières, grâce aux interac
 Avec la mondialisation et le développement politique, économique, culturel et intellectuel de notre pays.
             </p>
             <div class="achat">
-              <button class="add2"> Voir plus </button>
+              <a href="/article.php" class="add2"> Voir plus </a>
             </div>
           </div>
         </div>

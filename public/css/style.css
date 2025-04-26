@@ -54,12 +54,70 @@ body {
   color : white;
 }
 
+.recents{
+  padding: 100px 15px 120px 15px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 .slogan{
   color : var(--aka)
 }
 
+.authors{
+  padding: 10px 15px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  place-items: center;
+  gap: 10px;
+}
+
+.auteurs{
+  margin: 15px;
+  border-radius : 15px;
+  box-shadow: 0px 0px 8px 0 rgb(184, 183, 183);
+  padding: 20px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.auteurs img{
+  margin: 0 20px 0 0;
+  width : 120px;
+  height: 130px;
+  border-radius: 15px;
+}
+
+.title {
+  width : 95%;
+  font-size : 32px;
+  font-weight : 600px;
+  margin : 0;
+  padding : 0;
+  color : var(--light-yellow);
+}
+
+.title h1{
+  margin : 0;
+}
+
+.titre{
+  width: 100%;
+}
+
+.achat{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
 .add2{
-  background-color: rgb(4, 136, 112);
+  background-color: var(--dark-blue);
   border: none;
   border-radius: 5px;
   padding: 8px;
@@ -67,10 +125,7 @@ body {
   color: white;
   font-size: 16px;
   font-weight: 600;
-}
-
-.add2 img{
-  width: 22px;
+  text-decoration : none;
 }
 
 .add2:hover{
@@ -79,28 +134,13 @@ body {
   transition: 0.2s;
 }
 
-.authors{
-  padding: 10px 15px;
-  width: 100%;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-.auteurs{
-  margin: 30px;
-  box-shadow: 0px 0px 8px 0 rgb(184, 183, 183);
-  padding: 20px 15px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.auteurs img{
-  margin: 0 30px;
+.titre_article{
+  font-size: 16px;
+  font-weight: 600;
 }
 
 /* Responsive : Mobile Navigation */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 805px) {
     .nav-list {
       display: none;
       width: 50%;
