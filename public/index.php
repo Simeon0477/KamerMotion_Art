@@ -38,22 +38,25 @@
   <section class="main">
       <section class="banner">
         <p>
-          <span class="slogan">Kamermotion Art</span> <br> Le murmure de la culture camerounaise dans la danse des formes et des couleurs
+          <span class="slogan">Kamermotion Art</span> <br> Le murmure de la culture camerounaise dans la danse des formes et des couleurs<br>
+          <button>Inscrivez vous maintenant</button>
         </p>
+        <img id="banner_image" src="/img/cmr.png"/>
       </section>
 
       <section class="recents">
-          <div class="title">
+          <!--div class="title">
             <h2>Articles récents</h2>
-          </div>
+          </div-->
           <div class="articles">
-            <div class="article">
+            <div class="article" id="most-recent">
               <div>
-                <img src="/img/image.jpg" alt="image" />
+                <img src="/img/cover.webp" alt="image" />
               </div>
               <div class="titre">
                 <div>
                 <p class="titre_article">Un regard novateur sur la culture camerounaise</p>
+                <p class="article_content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos ea nobis doloremque alias, cum ipsum quos, est repellendus necessitatibus iste, ullam optio ut consequuntur labore sint fugiat laborum aut laboriosam?</p>
                 </div>
                 <div class="achat">
                   <a href="/article.php" class="add2"> Voir plus </a>

@@ -15,10 +15,10 @@ body {
 /* Body */
 
 .main {
-    width: 96.7%;
+    width: 100%;
     font-size: 15px;
     font-family: poppins;
-    padding : 75px 20px;
+    padding : 50px 0px;
     display: flex;
     align-items : start;
     justify-content : center;
@@ -39,7 +39,7 @@ body {
   margin: 10px 0;
   background-color: var(--dark-gray);
   border-radius : 20px;
-  padding: 20px 15px;
+  padding: 15px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -48,7 +48,6 @@ body {
 
 .article img{
   width : 140px;
-  width : 120px;
   border-radius : 15px;
   margin: 0 30px 0 10px;
 }
@@ -59,7 +58,7 @@ body {
   justify-content: flex-end;
 }
 
-.add2{
+.add{
   background-color: var(--dark-blue);
   border: none;
   border-radius: 5px;
@@ -71,7 +70,7 @@ body {
   text-decoration : none;
 }
 
-.add2:hover{
+.add:hover{
   cursor: pointer;
   transform: scale(1.05);
   transition: 0.2s;
@@ -79,7 +78,7 @@ body {
 
 .title {
   width : 80%;
-  font-size : 32px;
+  font-size : 28px;
   font-weight : 600px;
   margin : 0;
   margin-bottom : 30px;
@@ -96,4 +95,62 @@ body {
   color: white;
 }
 
-  
+@media screen and (max-width: 1000px) {
+  .article{
+    width: 100%;
+  }
+
+  .title{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 675px) {
+  .title{
+    font-size: 28px;
+  }
+
+  .content{
+    font-size: 14px;
+  }
+
+  .titre{
+    font-size: 16px;
+  }
+
+  .add{
+    font-size: 14px;
+  }
+
+  .article{
+    flex-wrap: wrap;
+    padding: 0;
+  }
+
+  .img{
+    height: 250px;
+    overflow: hidden;
+    border-radius: 15px;
+  }
+
+  .article img{
+    width: 100%;
+    margin: 0;
+    transform: translateY(-30%);
+  }
+
+  .text{
+    padding: 15px;
+    width: 100%;
+  }
+} 
+
+@media screen and (max-width: 485px){
+  .img{
+    height: 200px;
+  }
+
+  .article img{
+    transform: translateY(-30%);
+  }
+}

@@ -15,37 +15,61 @@
 .banner{
   width: 100%;
   font-size: 15px;
-  height : 80vh;
-  background: url(/img/cover.webp) no-repeat center;
-  background-size: cover;
+  padding: 100px 0 40px 0;
+  background: transparent;
   display : flex;
   justify-content : center;
   align-items : center;
+  flex-wrap: wrap;
+  background-color: var(--dark-gray);
 }
 
 .banner p{
-  width: 70%;
-  padding : 20px;
-  border-radius: 25px;
-  backdrop-filter : blur(5px);
-  text-align : center;
-  font-family : african;
-  font-size : 30px;
+  padding : 25px;
+  border-radius: 20px;
+  text-align : left;
+  font-size : 20px;
   font-weight: 500;
   color : white;
+  width: 420px;
+}
+
+.banner button{
+  padding: 10px;
+  width: 80%;
+  margin: 20px 0;
+  font-size: 18px;
+  border: none;
+  font-family: poppins;
+  font-weight: 600;
+  color: white;
+  background-color: var(--aka);
+  border-radius: 30px;
+  transition: 1s ease;
+}
+
+.banner button:hover{
+  cursor: pointer;
+  background-color: var(--dark-aka);
+  transition: 1s;
+}
+
+#banner_image{
+  width: 410px;
+}
+
+.slogan{
+  font-size: 40px;
+  font-weight: 600;
+  color : var(--aka)
 }
 
 .recents{
-  padding: 100px 15px 120px 15px;
-  width: 97%;
+  padding: 60px 110px 120px 110px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-}
-
-.slogan{
-  color : var(--aka)
 }
 
 .articles{
@@ -54,14 +78,13 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   place-items: center;
-  gap: 10px;
+  gap: 15px;
 }
 
 .article{
-  margin: 15px;
   border-radius : 15px;
   background-color: var(--dark-gray);
-  padding: 20px 15px;
+  padding: 15px;
   display: flex;
   align-items: center;
   justify-content: start;
@@ -76,11 +99,16 @@
 
 .title {
   width : 95%;
-  font-size : 32px;
   font-weight : 600px;
   margin : 0;
   padding : 0;
   color : var(--light-yellow);
+}
+
+.title h2{
+  text-align: center;
+  font-size : 32px;
+  margin: 20px 0;
 }
 
 .title h1{
@@ -118,6 +146,178 @@
 .titre_article{
   font-size: 16px;
   font-weight: 600;
+}
+
+#most-recent{
+  grid-column: span 3;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background: transparent;
+}
+
+#most-recent .titre{
+  width: 50%;
+}
+
+#most-recent .titre_article{
+  font-size: 32px;
+  font-weight: 600;
+}
+
+#most-recent .article_content{
+  font-size: 16px;
+}
+
+#most-recent .add2{
+  background: transparent;
+  border: 2px white solid;
+  border-radius: 30px;
+  padding: 10px 15px;
+  transition: 0.2s;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration : none;
+}
+
+#most-recent img{
+  width: 540px;
+  height: auto;
+  margin: 0;
+}
+
+@media screen and (max-width: 1090px){
+  .recents{
+    padding: 60px 20px 120px 20px;
+  }
+
+  #most-recent{
+    grid-column: span 2;
+    justify-content: space-between;
+  }
+
+  #most-recent img{
+    width: 455px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 1035px){
+  #most-recent .titre{
+    width: 40%;
+  }
+
+  #most-recent img{
+    width: 440px;
+    height: 360px;
+  }
+}
+
+@media screen and (max-width: 1024px){
+  #most-recent .titre{
+    width: 48%;
+  }
+}
+
+@media screen and (max-width: 1000px){
+  #most-recent{
+    justify-content: center;
+  }
+
+  #most-recent .titre{
+    width: 100%;
+  }
+
+  #most-recent img{
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 900px){
+  #banner_image{
+    order: 2;
+  }
+
+  .banner p{
+    padding : 0;
+    color : white;
+    width: 350px;
+    order: 1;
+  }
+
+  .banner button{
+    width: 100%;
+  }
+
+  #most-recent{
+    grid-column: span 1;
+    width: calc(66.67% - 20px); 
+  }
+
+  #most-recent img{
+    width: 520px;
+    height: 400px;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 800px){
+  #banner_image{
+    order: 1;
+  }
+
+  .banner p{
+    width: 420px;
+    padding : 0;
+    text-align : center;
+    margin: 0;
+    order: 2;
+  }
+
+  .banner button{
+    width: 80%;
+  }
+
+  #most-recent{
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #most-recent .titre{
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #most-recent img{
+    width: 440px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 485px) {
+  .banner p{
+    width: 400px;
+  }
+
+  #most-recent img{
+    width: 400px;
+    height: auto;
+  }
+
+  #most-recent .titre_article{
+    font-size: 28px;
+    font-weight: 600;
+  }
+  
+  #most-recent .article_content{
+    font-size: 15px;
+  }
 }
 
 

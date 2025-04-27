@@ -27,7 +27,7 @@ body {
 }
 
 .form{
-  padding: 100px 15px 100px 15px;
+  padding: 100px 0;
   width : 70%;
 }
 
@@ -51,7 +51,7 @@ label{
 }
 
 textarea{
-  width: 100%;
+  width: 95%;
   border: 3px solid var(--dark-blue);
   margin: 10px 0;
   padding: 5px;
@@ -67,7 +67,7 @@ textarea{
 input{
     border-radius: 7.5px;
     margin: 10px auto;
-    width: 100%;
+    width: 95%;
     border: 3px solid var(--dark-blue);
     padding: 5px;
     height: 35px;
@@ -104,5 +104,20 @@ input[type="submit"]:hover{
     transition: .5s;
 }
 
+@media screen and (max-width: 900px) {
+  input[type="submit"]{
+    width: 40%;
+  }
+}
 
-  
+@media screen and (max-width: 630px) {
+  input[type="submit"]{
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 485px) {
+  input[type="submit"]{
+    width: 60%;
+  }
+}
